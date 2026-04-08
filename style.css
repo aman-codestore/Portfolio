@@ -289,6 +289,22 @@ nav a:hover {
 
 .card a {
   color: #e0e0e0;
+  transition: color 0.2s ease;
+}
+
+.card a:hover{
+  color: #ffbf00;
+}
+
+.card .code {
+  margin-left: 8px;
+  font-size: 1rem;
+  color: #a0a0a0;
+  transition: color 0.2s ease;
+}
+
+.card .code:hover {
+  color: #ffbf00;
 }
 
 .card p {
